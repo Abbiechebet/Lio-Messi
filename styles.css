@@ -708,21 +708,42 @@ details summary {
 
 .m{
     display: flex;
+    margin-top: 40px;
 }
 .mirror{
     display: flex;
 }
+/* .mirror-img{
+    clip-path: circle();
+    background-color: red;
+    padding: 5px;
+} */
 .mlink{
     font-size: 12px;
     color: #4D5156;
     margin-left: 12px;
-    margin-top: -7px;
+    margin-top: -7px; 
 }
+
 .mlink-A a{
     text-decoration: none;
+} 
+.mlink-A{
+    padding-left: 10px;
 }
 .mirror2 img{
     border-radius: 7px;
+}
+.transfers{
+    color: #1A0DAB;
+    font-size: 20px;
+    padding-top: 7px;
+}
+.transfers a{
+    text-decoration: none;
+}
+.transfers a:hover{
+    text-decoration: underline;
 }
 .la-liga{
     font-size: 14px;
@@ -731,20 +752,127 @@ details summary {
     padding-bottom: 12px;
 }
 
-
+.searches{
+    padding-left: 15px;
+    border: 1px solid #dadce0;
+    margin-top: 30px;
+}
 .search-list{
     display: flex;
 }
+.search-for{
+    color: #70757A;
+    font-size: 14px;
+    width: 563px;
+    height: 22px;
+    margin: 14px 20px 4px 0px;
+}
 .img-search img{
-    float: right;
+    cursor: pointer;
 }
 .search-lists{
     display: flex;
+    font-size: 14px;
 }
 .search-lists li{
     list-style: none;
 }
+.sl-one a{
+    text-decoration: none;
+}
+.sl-one li{
+    color: #1A0DAB;
+    margin: 0px 16px 0px 0px;
+    width: 79px;
+    height: 24px;
+} 
+.sl-two a{
+    text-decoration: none;
+}
+.sl-two li{
+    color: #1A0DAB;
+    margin: 0px 16px 0px 0px;
+    width: 79px;
+    height: 24px;
+} 
 .insta{
     display: flex;
+    padding-top: 35px;
+}
+/* }.insta img{
+    display: inline;
+} */
+.icons img{
+border-radius: 50%;
+/* height: 18px;
+width: 18px; */
+}
+.goal li{
+    list-style: none;
+}
+.goal{
+    display: flex;
+    padding-top: 20px;
+}
+.goal-A li{
+    /* width: 69px;
+    height: 16px; */
+    color: #70757A;
+    font-size: 14px;
+}
+.goal-B a {
+     text-decoration: none;
+     color: #1A0DAB;
+}
+.goal-B{
+    /* width: 81px;
+    height: 16px; */
+    font-size: 14px;
+    margin-left: 20px;
+}
+.goal-B a li:hover{
+    text-decoration: underline;
+}
+
+
+.ig-A{
+    margin-top: -7px;
+}
+.ig-A a{
+    text-decoration: none;
+}
+.instagram{
+    margin-right: 12px;
+    padding: 0px 4px;
+    background-color: #F1F3F4;
+    border-radius: 50px;
+}
+.ig{
+    color: #202124;
+    font-size: 14px;
+    font-family: arial, sans-serif;
+}
+.ig-link{
+    color:#4D5156;
+    font-size: 12px;
+}
+.ig-link a{
+    text-decoration: none;
+}
+.leo-link a{
+    text-decoration: none;
+    font-size: 20px;
+    margin: 18px 0px 3px;
+    padding: 5px 0px 0px;
+    color: #1A0DAB;
+}
+
+.leo-link a:hover{
+   text-decoration: underline;
+}
+.cuenta{
+    color: #4D5156;
+    font-size: 14px;
+
 }
 /* end of left side */
